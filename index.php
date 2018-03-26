@@ -1,7 +1,7 @@
 <?php
 
 	//We'll need the JIRA token to authenticate with.
-	file_include_once('jira_token.php');
+	include_once('jira_token.php');
 
 	if(isset($_POST['submit'])){
 		
